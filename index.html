@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Shopping Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🛍️ TrendHive Zohra</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="checkout.html">Checkout</a> |
+      <a href="login.html">Login</a>
+    </nav>
+    <input type="text" id="search" placeholder="Search products...">
+    <select id="category">
+      <option value="all">All Categories</option>
+      <option value="men">Men</option>
+      <option value="women">Women</option>
+      <option value="accessories">Accessories</option>
+    </select>
+  </header>
+
+  <main>
+    <div id="products" class="product-container"></div>
+  </main>
+
+  <aside>
+    <h2>🛒 Cart</h2>
+    <ul id="cart"></ul>
+    <p id="total">Total: ₹0</p>
+    <a href="checkout.html"><button>Go to Checkout</button></a>
+  </aside>
+
+  <footer>
+    <p>© 2026 My Shopping Store | Contact: support@myshop.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- ✅ Footer goes here -->
